@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia de Marketing</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; color:#333; }
+    header { background:#111; color:#fff; padding:20px; display:flex; justify-content:space-between; align-items:center; }
+    header h1 { margin:0; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; }
+    .hero { background:linear-gradient(135deg,#ff4b2b,#ff416c); color:#fff; padding:100px 20px; text-align:center; }
+    .hero h2 { font-size:40px; margin-bottom:20px; }
+    .hero button { padding:12px 25px; border:none; background:#fff; color:#ff416c; font-weight:bold; cursor:pointer; border-radius:5px; }
+    .section { padding:60px 20px; text-align:center; }
+    .services { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+    .card { background:#f4f4f4; padding:20px; border-radius:10px; width:250px; }
+    .card h3 { margin-top:0; }
+    footer { background:#111; color:#fff; text-align:center; padding:20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MarketingPro</h1>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Impulsa tu negocio al siguiente nivel</h2>
+  <p>Somos expertos en marketing digital, branding y publicidad.</p>
+  <button onclick="alert('Contáctanos ahora')">Contáctanos</button>
+</section>
+
+<section id="servicios" class="section">
+  <h2>Servicios</h2>
+  <div class="services">
+    <div class="card">
+      <h3>SEO</h3>
+      <p>Posicionamos tu web en los primeros resultados de búsqueda.</p>
+    </div>
+    <div class="card">
+      <h3>Redes Sociales</h3>
+      <p>Gestionamos tus redes para aumentar tu audiencia.</p>
+    </div>
+    <div class="card">
+      <h3>Publicidad</h3>
+      <p>Campañas efectivas en Google y redes sociales.</p>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros" class="section">
+  <h2>Sobre Nosotros</h2>
+  <p>Somos una agencia creativa dedicada a hacer crecer marcas mediante estrategias innovadoras.</p>
+</section>
+
+<section id="contacto" class="section">
+  <h2>Contacto</h2>
+  <p>Email: contacto@marketingpro.com</p>
+  <p>Tel: +52 55 1234 5678</p>
+</section>
+
+<footer>
+  <p>© 2026 MarketingPro - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
